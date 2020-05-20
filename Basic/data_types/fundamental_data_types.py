@@ -2,7 +2,7 @@
 int # integer numeric type
 float # floating point number
 bool # boolean
-str # string (set of characters)
+str # string (set of characters) (immutable)
 list # collection of heterogeneous types (mutable)
 tuple # collection of heterogeneous types (immutable)
 set # collection of unique heterogeneous types (immutable)

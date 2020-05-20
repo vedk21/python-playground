@@ -31,3 +31,7 @@ print(st7[0:5:2]) # 'ace'
 print(st7[-1]) # 'f'
 print(st7[-3]) # 'd'
 print(st7[::-1]) # 'fedcba'
+
+# Immutability
+print(st7 + 'ghi') # this creates new string 'abcdefghi'
+#st7[2] = 'e' # this will throw an error
