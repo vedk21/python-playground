@@ -32,9 +32,9 @@ print(l8_8) # ['box', 'computer', 'ball', 'bottle'] (This will be the cloned cop
 
 # Matrix list
 m1 = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
 ]
 print(m1[0][2]) # 3
 print(m1[1]) # [4, 5, 6]
