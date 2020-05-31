@@ -9,4 +9,4 @@ class Car:
   def drive(self):
     print('driving {self.name} a car of color {self.color}')
 
-mustang = Car('Mustang GT', 1970)
+mustang = Car('Mustang GT', 'grey')
