@@ -1,4 +1,4 @@
-# Functions are objects in python, means they can be passed as an argument to another function or can be returned from a function as well
+# Functions are objects in python, means they can be passed as an argument to another function or can be returned from a function as well (High Order Functions)
 
 # Function passed as an argument
 def do_something():
