@@ -20,3 +20,13 @@ h2 {
   font-size: 1.2rem;
   color: inherit;
 }
+
+h2 span {
+  text-transform: capitalize;
+  color: lightcyan;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #ececec;
+}
