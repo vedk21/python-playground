@@ -15,7 +15,16 @@ def generic_page(html_page='index.html'):
 def submit_contact_form():
   if request.method == 'POST':
     form_data = request.form.to_dict()
-    print(form_data)
+    save_contact_data_to_file(form_data)
     return 'Form submitted'
   else:
     return 'Error: Please try again later.'
+
+def save_contact_data_to_file(contact_data):
+  with open('./database/db.txt', 'a') as db:
+    contact_name = contact_data['contact_name']
+    contact_email = contact_data['contact_email']
+    subject = contact_data['subject']
+    message = contact_data['message']
+
+    db.write(f'\n{contact_name}, {contact_email}, {subject}, {message}')
